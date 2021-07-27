@@ -14,6 +14,7 @@ db = mysql.connector.connect(
 
 # print(db)
 
+
 cursor = db.cursor()
 
 #cursor.execute("CREATE DATABASE IF NOT EXISTS pythonsql")
