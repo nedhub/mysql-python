@@ -20,11 +20,7 @@ cursor = db.cursor()
 #cursor.execute("CREATE DATABASE IF NOT EXISTS pythonsql")
 
 
-     # ^
-     # | run this first
-      #|
-     # |
-      #|
+  
 
 cursor.execute("CREATE TABLE IF NOT EXISTS student (id INT PRIMARY KEY, name VARCHAR(64))")
 cursor.execute("CREATE TABLE IF NOT EXISTS course (id INT PRIMARY KEY, name VARCHAR(64))")
